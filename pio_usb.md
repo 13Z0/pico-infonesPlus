@@ -55,13 +55,7 @@ Pinouts:
 
 Requirements:
 
-- Latest Master branch of TinyUSB
-
-```bash
-cd $PICO_SDK_PATH/lib/tinyusb
-git checkout master
-git pull
-```
+- Pico SDK 2.2.0 with the TinyUSB version it includes (TinyUSB 0.18.0). Do not switch the SDK's TinyUSB submodule to its master branch.
 
 - Get Pico PIO USB: https://github.com/sekigon-gonnoc/Pico-PIO-USB and
 - Point the environment variabele PICO_PIO_USB_PATH to this repository

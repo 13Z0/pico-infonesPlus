@@ -1394,7 +1394,7 @@ Options:
         Custom pcb
      3: Adafruit Feather RP2040 DVI
      4: Waveshare RP2040-PiZero
-     5: Adafruit Metro RP2350 (latest branch of TinyUSB is required for this board)
+     5: Adafruit Metro RP2350
      6: Waveshare RP2040-Zero/RP2350-Zero with custom PCB
      7: WaveShare RP2350-PiZero - PIO USB enabled,  -u implied.
      8: Adafruit Fruit Jam - PIO USB enabled, -u implied.
