@@ -1,6 +1,6 @@
 # CHANGELOG
 
-New PCB design with SNES controller ports. The emulator is unchanged from v0.54.
+USB controllers on the Adafruit Fruit Jam and other boards with PIO-USB are now found at every start.
 
 # General Info
 
@@ -19,6 +19,12 @@ This can be fixed permanently with the [flash_config](https://github.com/fhoedem
 Keep in mind that `FLASH_QE_SET_1.uf2` must not be applied twice (recovery then requires erasing the flash with `universal_flash_nuke.uf2` first).
 
 See also [PSRAM with a non-Winbond flash chip](https://github.com/PicoPlus-devel/pico-infonesPlus#psram-with-a-non-winbond-flash-chip) in the readme.
+
+# v0.54.2
+
+## Fixes
+
+- **USB controllers on the Adafruit Fruit Jam and other boards with PIO-USB are now found at every start.** On boards with an older RP2350 chip they were often not detected.
 
 # v0.54.1
 
